@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Unifeed</title>
+</head>
+<body>
+    <header class="d-flex align-items-center">
+       <div class="container">
+            <div class="row">
+                <div class="col">                  
+                    <!-- Logo -->
+                    <nav class="navbar">
+                        <a class="navbar-brand" href="#">
+                            <img src="./img/Logo.svg" alt="">
+                        </a>
+        
+                        <!-- Boton Hamburguesa -->
+                        <button type="button" class="btn d-md-none" data-toggle="modal" data-target="#botonModal">
+                            <span><img src="./img/Hamburger Menu.svg" alt="boton-barra"></span>
+                        </button>
+        
+                        <!-- Barra de Navegacion -->
+                        <ul class="navbar-nav d-md-flex d-none">
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center">Pricing</a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a href="#" class="btn" role="button">Suscribe</a>
+                            </li>
+                        </ul>
+                    </nav>
+        
+                    <!-- Modal -->
+                    <div class="modal fade" id="botonModal" tabindex="-1" aria-labelledby="modalMenu" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Unifeet</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="modal-nav d-flex">
+                                        <li class="nav-item">
+                                          <a class="nav-link text-center" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-center" href="#">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-center" href="#">Pricing</a>
+                                        </li>
+                                        <li class="nav-item text-center">
+                                            <a href="#" class="btn" role="button">Suscribe</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                       
+                </div>
+            </div>       
+       </div>
+    </header>
+  
+    <section>
+        <div class="container">
+            <div class="row articulo-principal">
+                <div class="col-lg-4 mainImg">
+                    <img src="./img/Main Article Image.png" alt="" class="imgPrincipal">
+                </div>
+                <div class="col-lg-8 d-flex flex-wrap">
+                    <div class="mainTexto">
+                        <h2>Weekly Newsletter: Tweets for Higher Engagements</h2>
+                        <p>In this weekly newsletter, we will covering ten types of engaging tweets. This is the guide if you're just starting out on Twitter.</p>
+                    </div>
+                    <div class="avatar mt-auto d-flex">
+                        <div class="foto">
+                            <img src="./img/User Avatar.png" alt="" width="50">
+                        </div>
+                        <div class="datos">
+                            <p class="nombre">Jessica Andrews</p>
+                            <p class="cargo">Content Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row articulos-secundarios">
+                <div class="col-lg-4 d-lg-flex flex-wrap">
+                    <div class="secondImg">
+                        <img src="./img/Article-1-Image.png" alt="">
+                    </div>
+                    <div class="secondTexto">
+                        <h2>7 tips for Organic Traffic</h2>
+                        <p>From SEO to interrogating with Paid Advertising, this article covers it all.</p>
+                    </div>
+                   <div class="avatar d-flex">
+                        <div class="foto">
+                            <img src="./img/User Avatar-1.png" alt="" width="50">
+                        </div>
+                        <div class="datos">
+                            <p class="nombre">SEO Specialist</p>
+                            <p class="cargo">Spencer David</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-lg-4 d-lg-flex flex-wrap">
+                    <div class="secondImg">
+                        <img src="./img/Article-2-Image.png" alt="">
+                    </div>
+                    <div class="secondTexto">
+                        <h2>How to start Your Own bussines</h2>
+                        <p>Start your own bussines in 2021 has never been easier.</p>
+                    </div>
+                    <div class="avatar d-flex">
+                        <div class="foto">
+                            <img src="./img/User Avatar-2.png" alt="" width="50">
+                        </div>
+                        <div class="datos">
+                            <p class="nombre">Sara Frey</p>
+                            <p class="cargo">Bussines Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-lg-flex flex-wrap">
+                    <div class="secondImg">
+                        <img src="./img/Article-3-Image.png" alt="">
+                    </div>
+                    <div class="secondTexto">
+                        <h2>5 Tips For Better Branding</h2>
+                        <p>From SEO to interrogating with Paid Advertising, this article covers it all.</p>
+                    </div>
+                    <div class="avatar d-flex">
+                        <div class="foto">
+                            <img src="./img/User Avatar-3.png" alt="" width="50">
+                        </div>
+                        <div class="datos">
+                            <p class="nombre">David Suns</p>
+                            <p class="cargo">Brand Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="col d-md-flex justify-content-between">
+                <div class="logo-end">
+                    <img src="./img/Logo.svg" alt="">
+                </div>
+            
+                <div class="copyright  d-flex align-items-center">
+                    <p>Unifeed 2017 All Copyrights Not Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
